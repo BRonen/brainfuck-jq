@@ -22,3 +22,5 @@ cat bf/seven.bf | jq -Rr -f brainfuck.jq
 
 #+RESULTS:
 : 7
+
+I already did some experiments before, doing this [[https://gist.github.com/BRonen/e09be273c5df18272720d9a0e5207a8a][reverse polish notation arithmetic interpreter in JQ]].
