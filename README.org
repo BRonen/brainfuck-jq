@@ -1,0 +1,24 @@
+* Brainfuck JQ
+
+This projects aims to implement [[https://en.wikipedia.org/wiki/Brainfuck][Brainfuck]] using only [[https://jqlang.org/][JQ]].
+
+There is some samples at [[https://github.com/bronen/brainfuck-jq/tree/master/bf][bf/]] that you can run this way:
+
+#+BEGIN_SRC sh
+
+cat bf/helloworld.bf | jq -Rr -f brainfuck.jq
+
+#+END_SRC
+
+#+RESULTS:
+| Hello World! |
+|              |
+
+#+BEGIN_SRC sh
+
+cat bf/seven.bf | jq -Rr -f brainfuck.jq
+
+#+END_SRC
+
+#+RESULTS:
+: 7
